@@ -1,0 +1,19 @@
+{
+  "name": "ppt-egreact",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.5",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@windicss/plugin-utils": "^1.8.7",
+    "slidev-theme-shopee": "*"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.24.2"
+  }
+}
